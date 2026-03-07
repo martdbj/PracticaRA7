@@ -1,0 +1,18 @@
+[
+    {
+        "usuario": "¿Cuál es mi usuario?",
+        "asistente": "Bleep bloop bleep"
+    },
+    {
+        "usuario": "¿Qué me espera en mi futuro?",
+        "asistente": "Blip"
+    },
+    {
+        "usuario": "¿Me consideras un amigo?",
+        "asistente": "Bloouup Bleeaap Blip"
+    },
+    {
+        "usuario": "¿Qué día es hoy?",
+        "fecha": ""
+    }
+]
