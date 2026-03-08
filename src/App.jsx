@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import Informacion from './components/InformacionComponent'
+import Chat from './components/Chat';
 import InicioSesion from './components/InicioSesion'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
   return (
-    <>
-      <h1>Conversación con R2-D2</h1>
-      <InicioSesion></InicioSesion>
-      <Informacion></Informacion>
-    </>
+    <BrowserRouter>
+
+      <Routes>
+        <Route path="/" element={<InicioSesion />} />
+        <Route path="/about" element={<Chat />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
