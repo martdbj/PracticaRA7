@@ -10,6 +10,7 @@ export default function EntradaUsuario({opcion}) {
     
     return (
         <>
+            {/* Lo que hacemos aquí es recoger la opción del usuario con un prop y mostrar la respuesta adecuada */}
             {preguntaRespuesta.map((respuesta, indice) => {
                 if (respuesta.usuario === opcion) {
                     return (
